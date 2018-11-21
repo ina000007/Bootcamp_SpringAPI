@@ -1,0 +1,4 @@
+project link: https://dzone.com/articles/spring-boot-restful-web-service-complete-example
+cmd::
+mvnw clean package
+java -jar target\spring-boot-rest-2-0.0.1-SNAPSHOT.jar

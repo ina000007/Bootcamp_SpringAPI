@@ -1,0 +1,37 @@
+	.del{
+
+		background: url("https://png.icons8.com/metro/1600/delete.png");
+		background-repeat: no-repeat;
+		background-size: 29px;
+		height: 32px;
+		width: 28px;
+		margin: 18px;
+	}
+	.edit{
+
+		background: url("https://png.icons8.com/metro/1600/edit.png");
+		background-repeat: no-repeat;
+		background-size: 29px;
+		height: 32px;
+		width: 28px;
+		margin: 18px;
+	}
+
+	.registerbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+a{
+	color: white;
+}

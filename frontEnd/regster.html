@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="regster.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script  src="https://code.jquery.com/ui/1.9.2/jquery-ui.min.js"
+	integrity="sha256-eEa1kEtgK9ZL6h60VXwDsJ2rxYCwfxi40VZ9E0XwoEA="
+	crossorigin="anonymous">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="regster.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+
+
+</head>
+<body >
+
+ <form action="studentList.html">
+  <div class="container">
+    <h1>Register</h1>
+    <p>Please fill in this form to register.</p>
+    <a class="registerbtn" style="float:right; width: auto;" href="studentList.html"><b>View List</b></a>
+    <hr>
+	
+    <label for="name" ><b>Name</b></label>
+    <input type="text" placeholder="Enter Name" name="name" id="name" required>
+
+    <label for="age"><b>Age</b></label>
+    <input type="text" placeholder="Enter Age" name="psw" id="age" required>
+
+    <label for="rgsNm" ><b>Registration Number</b></label>
+    <input type="text" placeholder="Registration Number" id="rgsNm" name="Registration-Number" required>
+    <hr>
+
+    <button class="registerbtn" onClick="regstrSt()">Register</button>
+  </div>
+</form>
+</body>
+</html>

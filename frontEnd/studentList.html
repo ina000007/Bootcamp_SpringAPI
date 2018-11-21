@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Student List</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="studentList.css">
+  <script src="studentList.js"></script>
+</head>
+<body onLoad="getData()">
+
+<div class="container">
+  <h2>Student List</h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Registration No.</th>
+      </tr>
+    </thead>
+    <tbody id = "tableBody">
+    </tbody>
+  </table>
+
+<a class="registerbtn" style="float:right; width: auto;" href="regster.html"><b>Add New Student</b></a>
+</div>
+
+</body>
+</html>
